@@ -7,7 +7,7 @@ janela = ctk.CTk()
 janela.geometry('600x400')
 janela.resizable(False, False)
 janela.title('Sistema de Acesso')
-janela.iconbitmap('01.ico')
+janela.iconbitmap('InterFace/01.ico')
 
 #elementos de dentro da janela.
 
