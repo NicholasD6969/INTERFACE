@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import com.example.demo.Modelo.Pessoa;
 import com.example.demo.Repositorio.Repositorio;
 import org.springframework.beans.factory.annotation.Autowired;
- 
+
 
 
 @RestController
@@ -21,7 +21,7 @@ public class Controle {
         return acao.save(pessoa);
     }
 
-    @GetMapping("")
+    @GetMapping("/")
     public String hello(){
         return "Hello World";
     }
